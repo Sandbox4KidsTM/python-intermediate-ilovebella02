@@ -31,6 +31,12 @@ This module is all about data structures in Python. As we learned in the Python 
 
 During this module of the course we will be focusing on more sophisitcated algorithms to solve a number of problems. In particular we will take a close look at **Sorting** and **Searching** algorithms and how we can apply them to the data structures we studies in previous modules. We will also be learning how to time our algorithms and compare the runtimes of our algorithms to the sorting and searching algorithms that are implemented by the Python developers.
 
+### Matplotlib and Numpy
+
 ### GUI Design and Tkinter
 
-This module focuses on visual programming.
+### Web Programming
+
+### AI Application: Computer Vision
+
+### AI Application: Voice Recognition
