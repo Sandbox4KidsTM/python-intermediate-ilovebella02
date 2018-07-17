@@ -1,21 +1,28 @@
+# -*- coding: utf-8 -*-
+
+
 class My_Stack():
-
     def __init__(self):
-        # Create an empty Stack, we will be using a private list
-        pass
-
-    def __repr__(self):
-        # Return a string of the stack, top to bottom, seperated by comments
-        return ", ".join(str(x) for x in reversed(self._stack)
-
-    def push(self, element):
-        # Adds an element to the top of the stack.
-        pass
-
+        self._stack = []
+        
+    def _repr_(self):
+        return" ", __join__(str(x) for x in self._stack.reverse())
+        
+    def push(self, item):
+        self._stack.append(item)
+        
     def pop(self):
-        # Removes and returns the element at the top of the stack
-        pass
-
+        return self._stack.pop()
+    
     def peek(self):
-        # Take a look at the top of the stack (return that element but do not remove it)
-        pass
+        return self._stack[-1]
+    
+stack = My_Stack()
+stack.push("Red")
+stack.push("Green")
+stack.push("Blue")
+
+stack.peek() == "Blue"
+stack.pop() == "Blue"
+print(stack)
+        
